@@ -13,7 +13,7 @@
   "license": "ISC",
   "release": {
     "branches": [
-      "master"
+      "main"
     ],
     "repositoryUrl": "https://github.com/nickredmark/gentopia.git",
     "plugins": [
