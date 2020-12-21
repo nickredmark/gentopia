@@ -10,13 +10,18 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <style>
-            {`
-            html { height: 100%; }
-            body { margin: 0; height: 100%; }
-            #__next { height: 100% }
-            `}
-          </style>{" "}
+          <link
+            href="https://fonts.googleapis.com/css?family=Roboto:wght@900"
+            rel="stylesheet"
+          />
+          <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.css"
+          />
+          <link
+            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+            rel="stylesheet"
+          />
         </Head>
         <body>
           <Main />
