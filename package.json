@@ -23,14 +23,29 @@
     ]
   },
   "dependencies": {
+    "autoprefixer": "^10.1.0",
     "itowns": "^2.27.0",
+    "leaflet": "^1.6.0",
+    "mongodb": "^3.6.3",
     "next": "^10.0.1",
+    "node-fetch": "^2.6.1",
+    "postcss": "^8.2.1",
+    "procedural-gl": "^1.0.6",
+    "pusher": "^4.0.2",
+    "pusher-js": "^7.0.2",
+    "qs": "^6.9.4",
+    "querystring": "^0.2.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-leaflet": "^2.7.0",
+    "react-three-fiber": "^5.3.10",
+    "request": "^2.88.2",
+    "tailwindcss": "^2.0.2",
     "three": "^0.122.0"
   },
   "devDependencies": {
     "@types/node": "^14.14.8",
+    "@types/node-fetch": "^2.5.7",
     "@types/react": "^16.9.56",
     "semantic-release": "^17.2.3",
     "typescript": "^4.0.5"
